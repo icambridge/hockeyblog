@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A Hockey Blog</title>
-    <link>http://hockeyblog.github.io/about/index.xml</link>
+    <link>//icambridge.github.io/hockeyblog/about/index.xml</link>
     <description>Recent content on A Hockey Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Iain Cambridge, all rights reserved.</copyright>
-    <atom:link href="http://hockeyblog.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//icambridge.github.io/hockeyblog/about/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
