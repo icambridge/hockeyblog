@@ -28,7 +28,10 @@
 
 &lt;p&gt;You can see the data below.&lt;/p&gt;
 
-&lt;h2 id=&#34;czech-extraliga&#34;&gt;Czech Extraliga&lt;/h2&gt;
+&lt;h2 id=&#34;czech&#34;&gt;Czech&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://s3.eu-central-1.amazonaws.com/hockey.stats/czech.jpg&#34; alt=&#34;Czech Transfer Sources&#34; /&gt;
+&lt;a href=&#34;https://s3.eu-central-1.amazonaws.com/hockey.stats/czech.jpg&#34;&gt;View full scale&lt;/a&gt;&lt;/p&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -41,17 +44,17 @@
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;Czech2&lt;/td&gt;
-&lt;td&gt;301&lt;/td&gt;
+&lt;td&gt;303&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Czech&lt;/td&gt;
-&lt;td&gt;211&lt;/td&gt;
+&lt;td&gt;216&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Czech U20&lt;/td&gt;
-&lt;td&gt;81&lt;/td&gt;
+&lt;td&gt;87&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -60,13 +63,8 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;WJC-20&lt;/td&gt;
-&lt;td&gt;40&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
 &lt;td&gt;Czech U18&lt;/td&gt;
-&lt;td&gt;17&lt;/td&gt;
+&lt;td&gt;22&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -105,11 +103,6 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;EJC-18&lt;/td&gt;
-&lt;td&gt;7&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
 &lt;td&gt;Czech2 Q&lt;/td&gt;
 &lt;td&gt;7&lt;/td&gt;
 &lt;/tr&gt;
@@ -125,13 +118,16 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;Others&lt;/td&gt;
-&lt;td&gt;53&lt;/td&gt;
+&lt;td&gt;Other&lt;/td&gt;
+&lt;td&gt;51&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 
 &lt;h2 id=&#34;del&#34;&gt;DEL&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://s3.eu-central-1.amazonaws.com/hockey.stats/del.jpg&#34; alt=&#34;DEL Transfer Sources&#34; /&gt;
+&lt;a href=&#34;https://s3.eu-central-1.amazonaws.com/hockey.stats/del.jpg&#34;&gt;View full scale&lt;/a&gt;&lt;/p&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -144,17 +140,12 @@
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;DEL&lt;/td&gt;
-&lt;td&gt;134&lt;/td&gt;
+&lt;td&gt;151&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Germany2&lt;/td&gt;
-&lt;td&gt;91&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Germany3&lt;/td&gt;
-&lt;td&gt;66&lt;/td&gt;
+&lt;td&gt;109&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -163,13 +154,13 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;DEL2&lt;/td&gt;
-&lt;td&gt;24&lt;/td&gt;
+&lt;td&gt;DNL&lt;/td&gt;
+&lt;td&gt;28&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;Germany4&lt;/td&gt;
-&lt;td&gt;18&lt;/td&gt;
+&lt;td&gt;DEL2&lt;/td&gt;
+&lt;td&gt;25&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -178,8 +169,18 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
+&lt;td&gt;Junioren-BL&lt;/td&gt;
+&lt;td&gt;17&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
 &lt;td&gt;Czech&lt;/td&gt;
 &lt;td&gt;17&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;NHL&lt;/td&gt;
+&lt;td&gt;14&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -188,28 +189,8 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;NHL&lt;/td&gt;
-&lt;td&gt;13&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
 &lt;td&gt;ECHL&lt;/td&gt;
 &lt;td&gt;11&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Junioren-BL&lt;/td&gt;
-&lt;td&gt;11&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;IHL&lt;/td&gt;
-&lt;td&gt;10&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;DNL&lt;/td&gt;
-&lt;td&gt;10&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -218,13 +199,18 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;OGQ&lt;/td&gt;
-&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;IHL&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;KHL&lt;/td&gt;
-&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;WC B&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -233,13 +219,8 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;WC B&lt;/td&gt;
-&lt;td&gt;8&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;WJC-20&lt;/td&gt;
-&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;Italy&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -253,18 +234,16 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;Italy&lt;/td&gt;
-&lt;td&gt;6&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Others&lt;/td&gt;
-&lt;td&gt;44&lt;/td&gt;
+&lt;td&gt;Other&lt;/td&gt;
+&lt;td&gt;40&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 
 &lt;h2 id=&#34;khl&#34;&gt;KHL&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://s3.eu-central-1.amazonaws.com/hockey.stats/khl.jpg&#34; alt=&#34;KHL Transfer Sources&#34; /&gt;
+&lt;a href=&#34;https://s3.eu-central-1.amazonaws.com/hockey.stats/khl.jpg&#34;&gt;View full scale&lt;/a&gt;&lt;/p&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -282,12 +261,12 @@
 
 &lt;tr&gt;
 &lt;td&gt;VHL&lt;/td&gt;
-&lt;td&gt;99&lt;/td&gt;
+&lt;td&gt;100&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;MHL&lt;/td&gt;
-&lt;td&gt;64&lt;/td&gt;
+&lt;td&gt;66&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -302,7 +281,7 @@
 
 &lt;tr&gt;
 &lt;td&gt;Liiga&lt;/td&gt;
-&lt;td&gt;23&lt;/td&gt;
+&lt;td&gt;24&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -321,18 +300,13 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;Russia&lt;/td&gt;
-&lt;td&gt;13&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
 &lt;td&gt;Russia3&lt;/td&gt;
 &lt;td&gt;13&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;SHL&lt;/td&gt;
-&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;Russia&lt;/td&gt;
+&lt;td&gt;13&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -341,13 +315,8 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;OGQ&lt;/td&gt;
-&lt;td&gt;8&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;WJC-20&lt;/td&gt;
-&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;SHL&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -366,13 +335,16 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;Others&lt;/td&gt;
-&lt;td&gt;47&lt;/td&gt;
+&lt;td&gt;Other&lt;/td&gt;
+&lt;td&gt;49&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 
 &lt;h2 id=&#34;liiga&#34;&gt;Liiga&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://s3.eu-central-1.amazonaws.com/hockey.stats/liiga.jpg&#34; alt=&#34;Liiga Transfer Sources&#34; /&gt;
+&lt;a href=&#34;https://s3.eu-central-1.amazonaws.com/hockey.stats/liiga.jpg&#34;&gt;View full scale&lt;/a&gt;&lt;/p&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -385,27 +357,22 @@
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;Mestis&lt;/td&gt;
-&lt;td&gt;180&lt;/td&gt;
+&lt;td&gt;186&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Liiga&lt;/td&gt;
-&lt;td&gt;149&lt;/td&gt;
+&lt;td&gt;151&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Jr. A SM-liiga&lt;/td&gt;
-&lt;td&gt;105&lt;/td&gt;
+&lt;td&gt;113&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;I-divisioona&lt;/td&gt;
-&lt;td&gt;67&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;WJC-20&lt;/td&gt;
-&lt;td&gt;38&lt;/td&gt;
+&lt;td&gt;70&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -425,7 +392,7 @@
 
 &lt;tr&gt;
 &lt;td&gt;Jr. A SM-sarja&lt;/td&gt;
-&lt;td&gt;14&lt;/td&gt;
+&lt;td&gt;15&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -444,18 +411,13 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;Czech&lt;/td&gt;
+&lt;td&gt;SM-sarja&lt;/td&gt;
 &lt;td&gt;8&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;EBEL&lt;/td&gt;
-&lt;td&gt;7&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;DEL&lt;/td&gt;
-&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;Czech&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -464,7 +426,7 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;SM-sarja&lt;/td&gt;
+&lt;td&gt;EBEL&lt;/td&gt;
 &lt;td&gt;7&lt;/td&gt;
 &lt;/tr&gt;
 
@@ -474,8 +436,8 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;NCAA&lt;/td&gt;
-&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;DEL&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -484,13 +446,21 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;Others&lt;/td&gt;
-&lt;td&gt;84&lt;/td&gt;
+&lt;td&gt;NCAA&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Other&lt;/td&gt;
+&lt;td&gt;80&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 
 &lt;h2 id=&#34;nla&#34;&gt;NLA&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://s3.eu-central-1.amazonaws.com/hockey.stats/nla.jpg&#34; alt=&#34;NLA Transfer Sources&#34; /&gt;
+&lt;a href=&#34;https://s3.eu-central-1.amazonaws.com/hockey.stats/nla.jpg&#34;&gt;View full scale&lt;/a&gt;&lt;/p&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -503,22 +473,17 @@
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;NLB&lt;/td&gt;
-&lt;td&gt;150&lt;/td&gt;
+&lt;td&gt;155&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;NLA&lt;/td&gt;
-&lt;td&gt;114&lt;/td&gt;
+&lt;td&gt;118&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Elite Jr. A&lt;/td&gt;
-&lt;td&gt;62&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;WJC-20&lt;/td&gt;
-&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;67&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -533,7 +498,7 @@
 
 &lt;tr&gt;
 &lt;td&gt;AHL&lt;/td&gt;
-&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -557,18 +522,16 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;WJC-18&lt;/td&gt;
-&lt;td&gt;5&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Others&lt;/td&gt;
-&lt;td&gt;40&lt;/td&gt;
+&lt;td&gt;Other&lt;/td&gt;
+&lt;td&gt;32&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 
 &lt;h2 id=&#34;shl&#34;&gt;SHL&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://s3.eu-central-1.amazonaws.com/hockey.stats/shl.jpg&#34; alt=&#34;SHL Transfer Sources&#34; /&gt;
+&lt;a href=&#34;https://s3.eu-central-1.amazonaws.com/hockey.stats/shl.jpg&#34;&gt;View full scale&lt;/a&gt;&lt;/p&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -581,32 +544,27 @@
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;Allsvenskan&lt;/td&gt;
-&lt;td&gt;96&lt;/td&gt;
+&lt;td&gt;97&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;SuperElit&lt;/td&gt;
-&lt;td&gt;83&lt;/td&gt;
+&lt;td&gt;90&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;SHL&lt;/td&gt;
-&lt;td&gt;71&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;WJC-20&lt;/td&gt;
-&lt;td&gt;45&lt;/td&gt;
+&lt;td&gt;73&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Division 1&lt;/td&gt;
-&lt;td&gt;40&lt;/td&gt;
+&lt;td&gt;41&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Liiga&lt;/td&gt;
-&lt;td&gt;30&lt;/td&gt;
+&lt;td&gt;31&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -620,27 +578,22 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;EJC-18&lt;/td&gt;
-&lt;td&gt;15&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
 &lt;td&gt;KHL&lt;/td&gt;
 &lt;td&gt;11&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;CC&lt;/td&gt;
-&lt;td&gt;9&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
 &lt;td&gt;J18 Allsvenskan&lt;/td&gt;
-&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;ECHL&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;CC&lt;/td&gt;
 &lt;td&gt;9&lt;/td&gt;
 &lt;/tr&gt;
 
@@ -665,13 +618,8 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;OGQ&lt;/td&gt;
-&lt;td&gt;5&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Others&lt;/td&gt;
-&lt;td&gt;56&lt;/td&gt;
+&lt;td&gt;Other&lt;/td&gt;
+&lt;td&gt;54&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
