@@ -7,8 +7,374 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Iain Cambridge, all rights reserved.</copyright>
-    <lastBuildDate>Sun, 25 Feb 2018 15:12:23 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 27 Feb 2018 23:12:23 +0100</lastBuildDate>
     <atom:link href="//icambridge.github.io/hockeyblog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Goalie League Stats Differences</title>
+      <link>//icambridge.github.io/hockeyblog/post/goalie-stats-diffs/</link>
+      <pubDate>Tue, 27 Feb 2018 23:12:23 +0100</pubDate>
+      
+      <guid>//icambridge.github.io/hockeyblog/post/goalie-stats-diffs/</guid>
+      <description>
+
+&lt;p&gt;As part of my Europe goalie analysis I decided it would be interesting to know what the differences a goalie has in their stats when they switch leagues. The leagues I included were SHL, NLA, DEL, Czech Extraliga, Liiga and the AHL (since many players from the AHL to Europe).&lt;/p&gt;
+
+&lt;h2 id=&#34;what-i-did&#34;&gt;What I did&lt;/h2&gt;
+
+&lt;p&gt;I scraped all the Goalkeepers off of EliteProspects and then went through their stats history and whenever the league changed from the previous row I marked it as a transfer. I noted what their GAA and SVP for both leagues was and calculated the difference. I then wrote these to a csv file for each league.&lt;/p&gt;
+
+&lt;p&gt;When reading the csv for each league I selected the rows where both the old and new leagues SVP was present for data to calculate the average mean SVP and I also selected only rows that had GAA for both leagues when selecting the data for the GAA data set. Once the data was select I then discounted the top and bottom quarters of the dataset to avoid edge cases. Then I found the mean.&lt;/p&gt;
+
+&lt;h2 id=&#34;reading-the-data&#34;&gt;Reading the data&lt;/h2&gt;
+
+&lt;p&gt;A positive number is an improvement within the new league. So Goalkeepers going from the SHL to the NLA will on average (according to the mean) have a 1 percent better save percentage. So a 0.91 would become 0.92. While they would have an average 0.27 worst GAA.&lt;/p&gt;
+
+&lt;h3 id=&#34;shl&#34;&gt;SHL&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Old League&lt;/th&gt;
+&lt;th&gt;GAA mean&lt;/th&gt;
+&lt;th&gt;SVP mean&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;NLA&lt;/td&gt;
+&lt;td&gt;0.26&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Liiga&lt;/td&gt;
+&lt;td&gt;0.19&lt;/td&gt;
+&lt;td&gt;-1.25&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;KHL&lt;/td&gt;
+&lt;td&gt;0.21&lt;/td&gt;
+&lt;td&gt;-0.7&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;DEL&lt;/td&gt;
+&lt;td&gt;-0.45&lt;/td&gt;
+&lt;td&gt;0.12&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Czech&lt;/td&gt;
+&lt;td&gt;0.05&lt;/td&gt;
+&lt;td&gt;-2.25&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;AHL&lt;/td&gt;
+&lt;td&gt;-0.39&lt;/td&gt;
+&lt;td&gt;0.66&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;nla&#34;&gt;NLA&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Old League&lt;/th&gt;
+&lt;th&gt;GAA mean&lt;/th&gt;
+&lt;th&gt;SVP mean&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;SHL&lt;/td&gt;
+&lt;td&gt;-0.27&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Liiga&lt;/td&gt;
+&lt;td&gt;0.39&lt;/td&gt;
+&lt;td&gt;-0.8&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;KHL&lt;/td&gt;
+&lt;td&gt;0.24&lt;/td&gt;
+&lt;td&gt;-0.13&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;DEL&lt;/td&gt;
+&lt;td&gt;0.54&lt;/td&gt;
+&lt;td&gt;-2.7&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;AHL&lt;/td&gt;
+&lt;td&gt;0.34&lt;/td&gt;
+&lt;td&gt;0.13&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;liiga&#34;&gt;Liiga&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Old League&lt;/th&gt;
+&lt;th&gt;GAA mean&lt;/th&gt;
+&lt;th&gt;SVP mean&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;SHL&lt;/td&gt;
+&lt;td&gt;0.08&lt;/td&gt;
+&lt;td&gt;0.76&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;NLA&lt;/td&gt;
+&lt;td&gt;-0.79&lt;/td&gt;
+&lt;td&gt;0.05&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;KHL&lt;/td&gt;
+&lt;td&gt;-0.3&lt;/td&gt;
+&lt;td&gt;0.32&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;DEL&lt;/td&gt;
+&lt;td&gt;-0.92&lt;/td&gt;
+&lt;td&gt;2.95&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Czech&lt;/td&gt;
+&lt;td&gt;0.24&lt;/td&gt;
+&lt;td&gt;0.15&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;AHL&lt;/td&gt;
+&lt;td&gt;-0.74&lt;/td&gt;
+&lt;td&gt;1.72&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;khl&#34;&gt;KHL&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Old League&lt;/th&gt;
+&lt;th&gt;GAA mean&lt;/th&gt;
+&lt;th&gt;SVP mean&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;SHL&lt;/td&gt;
+&lt;td&gt;0.59&lt;/td&gt;
+&lt;td&gt;-1.29&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;NLA&lt;/td&gt;
+&lt;td&gt;0.02&lt;/td&gt;
+&lt;td&gt;-1.2&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Liiga&lt;/td&gt;
+&lt;td&gt;0.36&lt;/td&gt;
+&lt;td&gt;-1.24&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;DEL&lt;/td&gt;
+&lt;td&gt;0.13&lt;/td&gt;
+&lt;td&gt;-1.37&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Czech&lt;/td&gt;
+&lt;td&gt;0.03&lt;/td&gt;
+&lt;td&gt;-0.94&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;AHL&lt;/td&gt;
+&lt;td&gt;-0.2&lt;/td&gt;
+&lt;td&gt;0.74&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;del&#34;&gt;DEL&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Old League&lt;/th&gt;
+&lt;th&gt;GAA mean&lt;/th&gt;
+&lt;th&gt;SVP mean&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;SHL&lt;/td&gt;
+&lt;td&gt;0.4&lt;/td&gt;
+&lt;td&gt;0.35&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;NLA&lt;/td&gt;
+&lt;td&gt;0.32&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Liiga&lt;/td&gt;
+&lt;td&gt;0.01&lt;/td&gt;
+&lt;td&gt;-0.63&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;KHL&lt;/td&gt;
+&lt;td&gt;0.2&lt;/td&gt;
+&lt;td&gt;-0.02&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Czech&lt;/td&gt;
+&lt;td&gt;0.44&lt;/td&gt;
+&lt;td&gt;-2.39&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;AHL&lt;/td&gt;
+&lt;td&gt;-0.25&lt;/td&gt;
+&lt;td&gt;1.27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;czech&#34;&gt;Czech&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Old League&lt;/th&gt;
+&lt;th&gt;GAA mean&lt;/th&gt;
+&lt;th&gt;SVP mean&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;SHL&lt;/td&gt;
+&lt;td&gt;0.15&lt;/td&gt;
+&lt;td&gt;1.45&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;NLA&lt;/td&gt;
+&lt;td&gt;0.89&lt;/td&gt;
+&lt;td&gt;-4.4&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Liiga&lt;/td&gt;
+&lt;td&gt;-0.24&lt;/td&gt;
+&lt;td&gt;1.32&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;KHL&lt;/td&gt;
+&lt;td&gt;-0.29&lt;/td&gt;
+&lt;td&gt;-0.03&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;DEL&lt;/td&gt;
+&lt;td&gt;-0.34&lt;/td&gt;
+&lt;td&gt;1.35&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;AHL&lt;/td&gt;
+&lt;td&gt;-0.27&lt;/td&gt;
+&lt;td&gt;1.85&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;ahl&#34;&gt;AHL&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Old League&lt;/th&gt;
+&lt;th&gt;GAA mean&lt;/th&gt;
+&lt;th&gt;SVP mean&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;SHL&lt;/td&gt;
+&lt;td&gt;0.33&lt;/td&gt;
+&lt;td&gt;-0.68&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;NLA&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;-2.3&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Liiga&lt;/td&gt;
+&lt;td&gt;0.44&lt;/td&gt;
+&lt;td&gt;-1.27&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;KHL&lt;/td&gt;
+&lt;td&gt;-0.12&lt;/td&gt;
+&lt;td&gt;0.23&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;DEL&lt;/td&gt;
+&lt;td&gt;0.52&lt;/td&gt;
+&lt;td&gt;-1.52&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Czech&lt;/td&gt;
+&lt;td&gt;-0.14&lt;/td&gt;
+&lt;td&gt;0.35&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
     
     <item>
       <title>Goalie Transfer Sources</title>
