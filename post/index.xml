@@ -32,347 +32,79 @@
 
 &lt;h3 id=&#34;shl&#34;&gt;SHL&lt;/h3&gt;
 
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Old League&lt;/th&gt;
-&lt;th&gt;GAA mean&lt;/th&gt;
-&lt;th&gt;SVP mean&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;NLA&lt;/td&gt;
-&lt;td&gt;0.26&lt;/td&gt;
-&lt;td&gt;N/A&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Liiga&lt;/td&gt;
-&lt;td&gt;0.19&lt;/td&gt;
-&lt;td&gt;-1.25&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;KHL&lt;/td&gt;
-&lt;td&gt;0.21&lt;/td&gt;
-&lt;td&gt;-0.7&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;DEL&lt;/td&gt;
-&lt;td&gt;-0.45&lt;/td&gt;
-&lt;td&gt;0.12&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Czech&lt;/td&gt;
-&lt;td&gt;0.05&lt;/td&gt;
-&lt;td&gt;-2.25&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;AHL&lt;/td&gt;
-&lt;td&gt;-0.39&lt;/td&gt;
-&lt;td&gt;0.66&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;Old League | GAA mean | SVP mean | GAA Sample Size | SVP Sample Size
+&amp;mdash;|&amp;mdash;|&amp;mdash;
+NLA | 0.26 | N/A | 5 | 0
+Liiga | 0.19 | -1.25 | 29 | 29
+KHL | 0.21 | -0.7 | 11 | 11
+DEL | -0.45 | 0.12 | 9 | 9
+Czech | 0.05 | -2.25 | 4 | 4
+AHL | -0.39 | 0.66 | 18 | 19&lt;/p&gt;
 
 &lt;h3 id=&#34;nla&#34;&gt;NLA&lt;/h3&gt;
 
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Old League&lt;/th&gt;
-&lt;th&gt;GAA mean&lt;/th&gt;
-&lt;th&gt;SVP mean&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;SHL&lt;/td&gt;
-&lt;td&gt;-0.27&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Liiga&lt;/td&gt;
-&lt;td&gt;0.39&lt;/td&gt;
-&lt;td&gt;-0.8&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;KHL&lt;/td&gt;
-&lt;td&gt;0.24&lt;/td&gt;
-&lt;td&gt;-0.13&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;DEL&lt;/td&gt;
-&lt;td&gt;0.54&lt;/td&gt;
-&lt;td&gt;-2.7&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;AHL&lt;/td&gt;
-&lt;td&gt;0.34&lt;/td&gt;
-&lt;td&gt;0.13&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;Old League | GAA mean | SVP mean | GAA Sample Size | SVP Sample Size
+&amp;mdash;|&amp;mdash;|&amp;mdash;
+SHL | -0.27 | 1 | 5 | 1
+Liiga | 0.39 | -0.8 | 5 | 4
+KHL | 0.24 | -0.13 | 5 | 5
+DEL | 0.54 | -2.7 | 2 | 1
+AHL | 0.34 | 0.13 | 8 | 5&lt;/p&gt;
 
 &lt;h3 id=&#34;liiga&#34;&gt;Liiga&lt;/h3&gt;
 
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Old League&lt;/th&gt;
-&lt;th&gt;GAA mean&lt;/th&gt;
-&lt;th&gt;SVP mean&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;SHL&lt;/td&gt;
-&lt;td&gt;0.08&lt;/td&gt;
-&lt;td&gt;0.76&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;NLA&lt;/td&gt;
-&lt;td&gt;-0.79&lt;/td&gt;
-&lt;td&gt;0.05&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;KHL&lt;/td&gt;
-&lt;td&gt;-0.3&lt;/td&gt;
-&lt;td&gt;0.32&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;DEL&lt;/td&gt;
-&lt;td&gt;-0.92&lt;/td&gt;
-&lt;td&gt;2.95&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Czech&lt;/td&gt;
-&lt;td&gt;0.24&lt;/td&gt;
-&lt;td&gt;0.15&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;AHL&lt;/td&gt;
-&lt;td&gt;-0.74&lt;/td&gt;
-&lt;td&gt;1.72&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;Old League | GAA mean | SVP mean | GAA Sample Size | SVP Sample Size
+&amp;mdash;|&amp;mdash;|&amp;mdash;
+SHL | 0.08 | 0.76 | 21 | 23
+NLA | -0.79 | 0.05 | 3 | 2
+KHL | -0.3 | 0.32 | 8 | 9
+DEL | -0.92 | 2.95 | 4 | 4
+Czech | 0.24 | 0.15 | 7 | 6
+AHL | -0.74 | 1.72 | 25 | 25&lt;/p&gt;
 
 &lt;h3 id=&#34;khl&#34;&gt;KHL&lt;/h3&gt;
 
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Old League&lt;/th&gt;
-&lt;th&gt;GAA mean&lt;/th&gt;
-&lt;th&gt;SVP mean&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;SHL&lt;/td&gt;
-&lt;td&gt;0.59&lt;/td&gt;
-&lt;td&gt;-1.29&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;NLA&lt;/td&gt;
-&lt;td&gt;0.02&lt;/td&gt;
-&lt;td&gt;-1.2&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Liiga&lt;/td&gt;
-&lt;td&gt;0.36&lt;/td&gt;
-&lt;td&gt;-1.24&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;DEL&lt;/td&gt;
-&lt;td&gt;0.13&lt;/td&gt;
-&lt;td&gt;-1.37&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Czech&lt;/td&gt;
-&lt;td&gt;0.03&lt;/td&gt;
-&lt;td&gt;-0.94&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;AHL&lt;/td&gt;
-&lt;td&gt;-0.2&lt;/td&gt;
-&lt;td&gt;0.74&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;Old League | GAA mean | SVP mean | GAA Sample Size | SVP Sample Size
+&amp;mdash;|&amp;mdash;|&amp;mdash;
+SHL | 0.59 | -1.29 | 13 | 13
+NLA | 0.02 | -1.2 | 2 | 2
+Liiga | 0.36 | -1.24 | 23 | 23
+DEL | 0.13 | -1.37 | 5 | 5
+Czech | 0.03 | -0.94 | 11 | 11
+AHL | -0.2 | 0.74 | 29 | 29&lt;/p&gt;
 
 &lt;h3 id=&#34;del&#34;&gt;DEL&lt;/h3&gt;
 
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Old League&lt;/th&gt;
-&lt;th&gt;GAA mean&lt;/th&gt;
-&lt;th&gt;SVP mean&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;SHL&lt;/td&gt;
-&lt;td&gt;0.4&lt;/td&gt;
-&lt;td&gt;0.35&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;NLA&lt;/td&gt;
-&lt;td&gt;0.32&lt;/td&gt;
-&lt;td&gt;N/A&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Liiga&lt;/td&gt;
-&lt;td&gt;0.01&lt;/td&gt;
-&lt;td&gt;-0.63&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;KHL&lt;/td&gt;
-&lt;td&gt;0.2&lt;/td&gt;
-&lt;td&gt;-0.02&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Czech&lt;/td&gt;
-&lt;td&gt;0.44&lt;/td&gt;
-&lt;td&gt;-2.39&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;AHL&lt;/td&gt;
-&lt;td&gt;-0.25&lt;/td&gt;
-&lt;td&gt;1.27&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;Old League | GAA mean | SVP mean | GAA Sample Size | SVP Sample Size
+&amp;mdash;|&amp;mdash;|&amp;mdash;
+SHL | 0.4 | 0.35 | 16 | 16
+NLA | 0.32 | N/A | 4 | 0
+Liiga | 0.01 | -0.63 | 13 | 13
+KHL | 0.2 | -0.02 | 10 | 10
+Czech | 0.44 | -2.39 | 15 | 15
+AHL | -0.25 | 1.27 | 25 | 25&lt;/p&gt;
 
 &lt;h3 id=&#34;czech&#34;&gt;Czech&lt;/h3&gt;
 
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Old League&lt;/th&gt;
-&lt;th&gt;GAA mean&lt;/th&gt;
-&lt;th&gt;SVP mean&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;SHL&lt;/td&gt;
-&lt;td&gt;0.15&lt;/td&gt;
-&lt;td&gt;1.45&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;NLA&lt;/td&gt;
-&lt;td&gt;0.89&lt;/td&gt;
-&lt;td&gt;-4.4&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Liiga&lt;/td&gt;
-&lt;td&gt;-0.24&lt;/td&gt;
-&lt;td&gt;1.32&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;KHL&lt;/td&gt;
-&lt;td&gt;-0.29&lt;/td&gt;
-&lt;td&gt;-0.03&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;DEL&lt;/td&gt;
-&lt;td&gt;-0.34&lt;/td&gt;
-&lt;td&gt;1.35&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;AHL&lt;/td&gt;
-&lt;td&gt;-0.27&lt;/td&gt;
-&lt;td&gt;1.85&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;Old League | GAA mean | SVP mean | GAA Sample Size | SVP Sample Size
+&amp;mdash;|&amp;mdash;|&amp;mdash;
+SHL | 0.15 | 1.45 | 4 | 4
+NLA | 0.89 | -4.4 | 1 | 1
+Liiga | -0.24 | 1.32 | 11 | 11
+KHL | -0.29 | -0.03 | 7 | 7
+DEL | -0.34 | 1.35 | 12 | 12
+AHL | -0.27 | 1.85 | 4 | 4&lt;/p&gt;
 
 &lt;h3 id=&#34;ahl&#34;&gt;AHL&lt;/h3&gt;
 
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Old League&lt;/th&gt;
-&lt;th&gt;GAA mean&lt;/th&gt;
-&lt;th&gt;SVP mean&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;SHL&lt;/td&gt;
-&lt;td&gt;0.33&lt;/td&gt;
-&lt;td&gt;-0.68&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;NLA&lt;/td&gt;
-&lt;td&gt;0&lt;/td&gt;
-&lt;td&gt;-2.3&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Liiga&lt;/td&gt;
-&lt;td&gt;0.44&lt;/td&gt;
-&lt;td&gt;-1.27&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;KHL&lt;/td&gt;
-&lt;td&gt;-0.12&lt;/td&gt;
-&lt;td&gt;0.23&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;DEL&lt;/td&gt;
-&lt;td&gt;0.52&lt;/td&gt;
-&lt;td&gt;-1.52&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Czech&lt;/td&gt;
-&lt;td&gt;-0.14&lt;/td&gt;
-&lt;td&gt;0.35&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;Old League | GAA mean | SVP mean | GAA Sample Size | SVP Sample Size
+&amp;mdash;|&amp;mdash;|&amp;mdash;
+SHL | 0.33 | -0.68 | 29 | 27
+NLA | 0 | -2.3 | 4 | 1
+Liiga | 0.44 | -1.27 | 37 | 37
+KHL | -0.12 | 0.23 | 14 | 14
+DEL | 0.52 | -1.52 | 9 | 9
+Czech | -0.14 | 0.35 | 4 | 4&lt;/p&gt;
 </description>
     </item>
     
